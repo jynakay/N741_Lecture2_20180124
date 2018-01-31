@@ -26,6 +26,7 @@ summary(gapminder)
 
 # find the mean life expectancy
 mean(gapminder$lifeExp)
+round(mean(gapminder$lifeExp), digits=2)
 
 # find the median life expectancy
 # for each continent
